@@ -1,5 +1,6 @@
 import TVR from "../../assets/TVR.png"
-import { Link } from "react-router-dom"
+import { Link as NavLink } from "react-router-dom"
+import { Link } from "react-scroll";
 import {
   BsFacebook,
   BsInstagram,
@@ -26,15 +27,15 @@ const Footer = () => {
             It is a long established fact that a reader will be distracted lookings.
           </p>
           <div className="flex gap-12 mt-4">
-            <Link to="https://www.facebook.com/thevelvetroomsalonbhills" className="hover:scale-110 text-xl">
+            <a href="https://www.facebook.com/thevelvetroomsalonbhills" target="_blank" className="hover:scale-110 text-xl">
               <BsFacebook />
-            </Link>
-            <Link to="https://www.instagram.com/thevelvetroom_salon/?hl=en" className="hover:scale-110 text-xl">
+            </a>
+            <a href="https://www.instagram.com/thevelvetroom_salon/?hl=en" target="_blank" className="hover:scale-110 text-xl">
               <BsInstagram />
-            </Link>
-            <Link to="https://www.youtube.com/@thevelvetroom29/featured" className="hover:scale-110 text-xl">
+            </a>
+            <a href="https://www.youtube.com/@thevelvetroom29/featured" target="_blank" className="hover:scale-110 text-xl">
               <BsYoutube />
-            </Link>
+            </a>
           </div>
         </div>
         <div>
