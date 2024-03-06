@@ -1,10 +1,8 @@
 import TVR from "../../assets/TVR.png"
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom"
 import {
   BsFacebook,
   BsInstagram,
-  BsTwitter,
-  BsPinterest,
   BsYoutube,
 } from "react-icons/bs";
 import { motion } from "framer-motion";
@@ -34,7 +32,7 @@ const Footer = () => {
             <Link to="https://www.instagram.com/thevelvetroom_salon/?hl=en" className="hover:scale-110 text-xl">
               <BsInstagram />
             </Link>
-            <Link to="" className="hover:scale-110 text-xl">
+            <Link to="https://www.youtube.com/@thevelvetroom29/featured" className="hover:scale-110 text-xl">
               <BsYoutube />
             </Link>
           </div>
@@ -76,9 +74,9 @@ const Footer = () => {
         </div>
         <div>
           <div className="font-bold mb-6">Contact Us</div>
-          <div className="text-sm mb-4">55 East GobindPuri, Ludhiana, <br/> Punjab </div>
-          <div className="text-sm">contact@velvetroom.com</div>
-          <div className="text-sm">(123) 456 - 7890</div>
+          <div className="text-sm mb-4">8-2-681 7, Road No. 12, Fortune Enclave, Sri Ram Nagar Colony, Banjara Hills, <br /> Hyderabad, Telangana 500034 </div>
+          <div className="text-sm">thevelvetroom29@gmail.com</div>
+          <div className="text-sm">7380292929</div>
         </div>
       </div>
     </motion.div>
